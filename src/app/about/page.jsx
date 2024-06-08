@@ -31,11 +31,10 @@ const AboutPage = () => {
                             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
                             {/* BIOGRAPHY DESC */}
                             <p className="text-lg">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
+                            With a passion that bridges continents and coding languages, I bring a unique fusion of teaching expertise, cultural depth, and technical skill to the ever-evolving tech industry. After enriching experiences teaching English in Japan and managing a private cello studio, I pivoted to technology, driven by a fascination for software quality assurance and development.</p>
                             {/* BIOGRAPHY QUOTE */}
                             <span className="italic">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            My journey through various cultures and disciplines has equipped me with a profound adaptability and an unquenchable thirst for learning—qualities I am eager to leverage in software development and testing roles.
                             </span>
                             {/* BIOGRAPHY SIGN SVG */}
                             <div className="self-end">
@@ -192,13 +191,13 @@ const AboutPage = () => {
                                     {/* RIGHT */}  
                                     <div className="w-1/3">
                                         {/* JOB TITLE */}
-                                        <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg ">Full-Stack Software Development Apprentice</div>
+                                        <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg ">Test Automation Intern</div>
                                         {/* JOB DESC */}
-                                        <div className="p-3 text-sm italic">Full-Stack development with Ruby on Rails</div>
+                                        <div className="p-3 text-sm italic">Test Automation with Java and Carina Testing Framework</div>
                                         {/* JOB DATE */}
-                                        <div className="p-3 text-red-400 text-sm font-semibold">Nov 2023 - May 2024</div>
+                                        <div className="p-3 text-red-400 text-sm font-semibold">Apr 2023 - Sept 2023</div>
                                         {/* JOB COMPANY */}
-                                        <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Discovery Partners Institute</div>
+                                        <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Solvd Inc.</div>
                                     </div>
                                 </div>
                                 {/* EXPERIENCE LIST ITEM */}
@@ -206,13 +205,13 @@ const AboutPage = () => {
                                     {/* LEFT */}
                                     <div className="w-1/3">
                                         {/* JOB TITLE */}
-                                        <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg ">Full-Stack Software Development Apprentice</div>
+                                        <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg ">Manual/ Automation Test Engineer Intern</div>
                                         {/* JOB DESC */}
-                                        <div className="p-3 text-sm italic">Full-Stack development with Ruby on Rails</div>
+                                        <div className="p-3 text-sm italic">Foundational skills in Agile Methodology, SDLC, Manual Testing and Automation Testing</div>
                                         {/* JOB DATE */}
-                                        <div className="p-3 text-red-400 text-sm font-semibold">Nov 2023 - May 2024</div>
+                                        <div className="p-3 text-red-400 text-sm font-semibold">Sept 2022 - March 2023</div>
                                         {/* JOB COMPANY */}
-                                        <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Discovery Partners Institute</div>
+                                        <div className="p-1 rounded bg-white text-sm font-semibold w-fit">TestPro</div>
                                     </div>
                                     {/* CENTER */}
                                     <div className="w-1/6">
