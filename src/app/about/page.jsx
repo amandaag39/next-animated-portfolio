@@ -28,16 +28,16 @@ const AboutPage = () => {
                         {/* BIOGRAPHY CONTAINER */}
                         <div className="flex flex-col gap-12 justify-center">
                             {/* BIOGRAPHY TITLE */}
-                            <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
+                            <h1 className="font-bold text-2xl">ABOUT ME</h1>
                             {/* BIOGRAPHY DESC */}
                             <p className="text-lg">
-                            With a passion that bridges continents and coding languages, I bring a unique fusion of teaching expertise, cultural depth, and technical skill to the ever-evolving tech industry. After enriching experiences teaching English in Japan and managing a private cello studio, I pivoted to technology, driven by a fascination for software quality assurance and development.</p>
+                                Hi! I'm Amanda Mendez. My career path hasn't exactly been straightforward, but I've always been driven by a growth mindset. Starting as a freelance cellist, I later ventured into teaching English in Japan before health circumstances brought me back to the U.S. This led me to pivot into tech, beginning with software quality assurance and recently evolving into development. I thrive on learning and persistently working through the initial challenge of having a late start.                            </p>
                             {/* BIOGRAPHY QUOTE */}
-                            <span className="italic">
+                            {/* <span className="italic">
                             My journey through various cultures and disciplines has equipped me with a profound adaptability and an unquenchable thirst for learning—qualities I am eager to leverage in software development and testing roles.
-                            </span>
+                            </span> */}
                             {/* BIOGRAPHY SIGN SVG */}
-                            <div className="self-end">
+                            {/* <div className="self-end">
                                 <svg
                                     width="185"
                                     height="77"
@@ -51,7 +51,7 @@ const AboutPage = () => {
                                     strokeWidth="2"
                                     />
                                 </svg>
-                            </div>
+                            </div> */}
                             {/* BIOGRAPHY SCROLL SVG */}
                             <motion.svg
                                 initial={{ opacity: 0.2, y: 0 }}
@@ -82,43 +82,43 @@ const AboutPage = () => {
                             <motion.h1 initial={{x:"-300px"}} animate={isSkillRefInView ? {x:0} : {}} transition={{ delay: 0.2 }} className="font-bold text-2xl">SKILLS</motion.h1>
                             {/* SKILL LIST */}
                             <motion.div initial={{ x: "-300px" }} animate={isSkillRefInView ? { x: 0 } : {}} className="flex gap-4 flex-wrap">
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Java
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Selenium
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Ruby
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Rails
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     JavaScript
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Tailwind CSS
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Test Automation: API, Web, Mobile
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Postman
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Appium
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Git: GitHub, Command Line Proficiency
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     MySQL
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Postgres
                                 </div>
-                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-teal-600 text-white hover:bg-white hover:text-black">
                                     Japanese - conversational
                                 </div>
                             </motion.div>
@@ -149,7 +149,7 @@ const AboutPage = () => {
                         {/* EXPERIENCE CONTAINER */}
                         <div className="flex flex-col gap-12 justify-center pb-48" ref={experienceRef}>
                             {/* EXPERIENCE TITLE */}
-                            <motion.h1 initial={{x:"-300px"}} animate={isExperienceRefInView ? {x:"0"} : {}} transition={{ delay: 0.2 }} className="font-bold text-2xl">EXPERIENCE</motion.h1>
+                            <motion.h1 initial={{x:"-300px"}} animate={isExperienceRefInView ? {x:"0"} : {}} transition={{ delay: 0.2 }} className="font-bold text-2xl">TECH EXPERIENCE</motion.h1>
                             {/* EXPERIENCE LIST */}
                             <motion.div initial={{x:"-300px"}} animate={isExperienceRefInView ? {x:"0"} : {}} className="">
                                 {/* EXPERIENCE LIST ITEM */}
@@ -163,10 +163,10 @@ const AboutPage = () => {
                                         {/* JOB DATE */}
                                         <div className="p-3 text-red-400 text-sm font-semibold">Nov 2023 - May 2024</div>
                                         {/* JOB COMPANY */}
-                                        <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Discovery Partners Institute</div>
+                                        <div className="p-3 rounded text-sm font-semibold w-fit">Discovery Partners Institute</div>
                                     </div>
                                     {/* CENTER */}
-                                    <div className="w-1/6">
+                                    <div className="w-1/6 flex justify-center">
                                         {/* LINE */}
                                         <div className="w-1 h-full bg-gray-600 rounded relative">
                                             {/* CIRCLE */}
@@ -181,7 +181,7 @@ const AboutPage = () => {
                                     {/* LEFT */}
                                     <div className="w-1/3"></div>     
                                     {/* CENTER */}
-                                    <div className="w-1/6">
+                                    <div className="w-1/6 flex justify-center">
                                         {/* LINE */}
                                         <div className="w-1 h-full bg-gray-600 rounded relative">
                                             {/* CIRCLE */}
@@ -191,13 +191,13 @@ const AboutPage = () => {
                                     {/* RIGHT */}  
                                     <div className="w-1/3">
                                         {/* JOB TITLE */}
-                                        <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg ">Test Automation Intern</div>
+                                        <div className="bg-white p-3 font-semibold rounded-b-lg rounded-e-lg ">Test Automation Intern</div>
                                         {/* JOB DESC */}
                                         <div className="p-3 text-sm italic">Test Automation with Java and Carina Testing Framework</div>
                                         {/* JOB DATE */}
                                         <div className="p-3 text-red-400 text-sm font-semibold">Apr 2023 - Sept 2023</div>
                                         {/* JOB COMPANY */}
-                                        <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Solvd Inc.</div>
+                                        <div className="p-3 rounded text-sm font-semibold w-fit">Solvd Inc.</div>
                                     </div>
                                 </div>
                                 {/* EXPERIENCE LIST ITEM */}
@@ -211,10 +211,10 @@ const AboutPage = () => {
                                         {/* JOB DATE */}
                                         <div className="p-3 text-red-400 text-sm font-semibold">Sept 2022 - March 2023</div>
                                         {/* JOB COMPANY */}
-                                        <div className="p-1 rounded bg-white text-sm font-semibold w-fit">TestPro</div>
+                                        <div className="p-3 rounded text-sm font-semibold w-fit">TestPro</div>
                                     </div>
                                     {/* CENTER */}
-                                    <div className="w-1/6">
+                                    <div className="w-1/6 flex justify-center">
                                         {/* LINE */}
                                         <div className="w-1 h-full bg-gray-600 rounded relative">
                                             {/* CIRCLE */}
