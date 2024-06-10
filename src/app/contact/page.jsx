@@ -53,7 +53,7 @@ const ContactPage = () => {
                         </div>
                     </div>
                     {/* FORM CONTAINER */}
-                    <form onSubmit={sendEmail} ref={form} className="h-1/2 lg:h-full lg:w-1/2 bg-neutral-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24">
+                    <form onSubmit={sendEmail} ref={form} className="h-auto lg:h-full lg:w-1/2 bg-neutral-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24">
                         <span>Dear Amanda Mendez,</span>
                         <textarea rows={6} className="bg-transparent border-2 outline-none resize-none" name="user_message"/>
                         <span>My email address is:</span>
