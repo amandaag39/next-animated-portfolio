@@ -31,7 +31,7 @@ const AboutPage = () => {
                             <h1 className="font-bold text-2xl">ABOUT ME</h1>
                             {/* BIOGRAPHY DESC */}
                             <p className="text-lg">
-                                Hi! I'm Amanda Mendez. My career path hasn't exactly been straightforward, but I've always been driven by a growth mindset. Starting as a freelance cellist, I later ventured into teaching English in Japan before health circumstances brought me back to the U.S. This led me to pivot into tech, beginning with software quality assurance and recently evolving into development. I thrive on learning and persistently working through the initial challenge of having a late start.                            </p>
+                                Hi! I&apos;m Amanda Mendez. My career path hasn&apos;t exactly been straightforward, but I&apos;ve always been driven by a growth mindset. Starting as a freelance cellist, I later ventured into teaching English in Japan before health circumstances brought me back to the U.S. This led me to pivot into tech, beginning with software quality assurance and recently evolving into development. I thrive on learning and persistently working through the initial challenge of having a late start.</p>
                             {/* BIOGRAPHY QUOTE */}
                             {/* <span className="italic">
                             My journey through various cultures and disciplines has equipped me with a profound adaptability and an unquenchable thirst for learning—qualities I am eager to leverage in software development and testing roles.
